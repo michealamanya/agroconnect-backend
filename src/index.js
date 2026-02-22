@@ -55,8 +55,8 @@ app.use((err, req, res, next) => {
 
 // Start server (bind to 0.0.0.0 for cloud deployment)
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`\n🌱 AgroConnect API running on http://localhost:${PORT}`);
-  console.log(`📋 Health check: http://localhost:${PORT}/api/health\n`);
+  console.log(`\n AgroConnect API running on http://localhost:${PORT}`);
+  console.log(` Health check: http://localhost:${PORT}/api/health\n`);
   console.log('Available endpoints:');
   console.log('  Users:         /api/users');
   console.log('  Produce:       /api/produce');
